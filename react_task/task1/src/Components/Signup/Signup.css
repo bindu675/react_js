@@ -1,0 +1,25 @@
+.container2{
+    border:1px ridge;
+    padding: 40px;
+    margin-left: 124px;
+    margin-right: 514px;
+    background-color:#2f102f;
+    font-size: 15px;
+    height: 500px;
+}
+.signup1{
+    font-size: 30px;
+    color: white;
+}
+.check2{
+    margin-left: -50px;;
+}
+.signup2{
+    width:300px;
+    background-color: #e91e63;
+    height: 30px;
+}
+.pass1{
+    width: 300px; 
+    font-size: 15px;
+}
