@@ -5,7 +5,8 @@
     margin-right: 514px;
     background-color:#2f102f;
     font-size: 15px;
-    height: 300px;
+    height: 450px;
+   
 }
 .sign1{
     font-size: 30px;
@@ -16,10 +17,16 @@
     margin-top: 37px;
     font-size: 15px;
     width: 300px;
+    background-color:#2f102f;
+    color: white;
+    padding: 5px;
 }
 .name1{
     font-size: 15px;
     width: 300px;
+    background-color:#2f102f;
+    color: white;
+    padding: 5px;
 }
 .pass2{
     padding-top: 2px;
@@ -39,7 +46,19 @@
       margin-left: -152px;
 }
 .account1{
-    margin-left: -116px;
+    margin-right: 157px;
+    color: white;
+    font-size: 15px;
+}
+.images{
+    height: 50px;
+    width: 80px;
+    border-radius:70%;
+}
+.icons1{
+    margin-right: 1px;
+};
+.sign4{
     color: white;
     font-size: 15px;
 }

@@ -6,19 +6,23 @@ import Signup from './Components/Signup/Signup';
 import {BrowserRouter as Router , Route } from 'react-router-dom';
 import Contactus from './Components/Contactus/Contactus';
 import Index from './Components/Index/Index';
+import LifecycleA from './Components/LifecycleA/LifecycleA';
 
 
 function App() {
   return (
     <div className="App">
-      <Router>
+      {/* <Router> 
    <switch>
-     <Route exact path='/' component={Signup}></Route>
+   <Route exact path='/' component={LifecycleA}></Route>
+   <Route exact path='/Signup' component={Signup}></Route>
+    
      <Route exact path='/Signin' component={Signin}></Route>
      <Route exact path='/Contactus' component={Contactus}></Route>
      <Route exact path='/Index' component={Index}></Route>
    </switch>
- </Router>
+ </Router> */}
+     <LifecycleA/>
     </div>
    
   );

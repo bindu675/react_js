@@ -22,4 +22,6 @@
 .pass1{
     width: 300px; 
     font-size: 15px;
+    background-color:#2f102f;
+    padding: 5px;
 }

@@ -6,7 +6,7 @@ class Signup extends Component {
         return (
             <div class="container2">
                  <div class="signup1">
-                    Signup form</div><br></br>
+                    Signup form</div>
              <form>
                  <input class="pass1"type="text" name="name" placeholder="FirstName"></input><br></br>
                  <input class="pass1" type="text" name="name" placeholder="LatName"></input><br></br>
@@ -19,9 +19,9 @@ class Signup extends Component {
                  <input class="check2" type="checkbox"></input>
                  Agree to Terms and Privacy Policy
              </div>
-                    <div><br></br>
-                     <button class="signup2">SignUp</button>
-                    </div>
+             <div>
+          <a class="sign4" href="/signin">Signin</a>
+        </div>
             </div>
         );
     }
