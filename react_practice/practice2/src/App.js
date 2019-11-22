@@ -7,6 +7,10 @@ import {BrowserRouter as Router , Route } from 'react-router-dom';
 import Contactus from './Components/Contactus/Contactus';
 import Index from './Components/Index/Index';
 import LifecycleA from './Components/LifecycleA/LifecycleA';
+import Person from './Container/Person/Person';
+import State from './Components/State/State';
+import Users from './Components/Users/Users';
+
 
 
 function App() {
@@ -22,7 +26,10 @@ function App() {
      <Route exact path='/Index' component={Index}></Route>
    </switch>
  </Router> */}
-     <LifecycleA/>
+     {/* <LifecycleA/> */}
+
+     {/* <State/> */}
+     <Users/>
     </div>
    
   );

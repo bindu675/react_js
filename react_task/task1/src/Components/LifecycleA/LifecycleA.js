@@ -17,7 +17,7 @@ class LifecycleA extends Component {
     render() {
         return (
             <div>
-               Hii.. welcome to mysore 
+              <h1> Hii.. welcome to mysore</h1>
             </div>
         );
     }
