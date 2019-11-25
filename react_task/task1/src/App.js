@@ -8,12 +8,14 @@ import Userinput from './Components/Userinput/Userinput';
 import Useroutput from './Components/Useroutput/Useroutput';
 import LifecycleA from './Components/LifecycleA/LifecycleA';
 import Operation from './Components/Operation/Operation';
+import Bind from './Components/Bind/Colorbinding';
+
 
 class App extends Component  {
   state={
     Useroutput:[{
       name:"bindu", age:"23"
-    }]
+    }] 
   }
   buttonClickHandler=()=>{
     console.log('hi');
@@ -34,7 +36,8 @@ class App extends Component  {
     <Useroutput name="bindu" age="23"/>
     <LifecycleA/> */}
     {/* <Addition/> */}
-    <Operation/>
+    {/* <Operation/> */}
+    <Bind/>
    </div> 
   );
 }

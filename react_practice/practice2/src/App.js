@@ -8,8 +8,10 @@ import Contactus from './Components/Contactus/Contactus';
 import Index from './Components/Index/Index';
 import LifecycleA from './Components/LifecycleA/LifecycleA';
 import Person from './Container/Person/Person';
-import State from './Components/State/State';
+// import State from './Components/State/State';
 import Users from './Components/Users/Users';
+import Application from './Components/Application/Application';
+import { Binding } from '@babel/traverse';
 
 
 
@@ -29,7 +31,9 @@ function App() {
      {/* <LifecycleA/> */}
 
      {/* <State/> */}
-     <Users/>
+     {/* <Users/> */}
+     {/* <Application/> */}
+     <Binding/>
     </div>
    
   );
