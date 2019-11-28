@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 import './Signup.css';
+import Navbar from '../Navbar/Navbar';
 
 class Signup extends Component {
     render() {
         return (
+            <div>
+            <div>
+                <Navbar/>
+            </div>
             <div class="container2">
                  <div class="signup1">
                     Signup form</div>
@@ -22,6 +27,7 @@ class Signup extends Component {
              <div>
           <a class="sign4" href="/signin">Signin</a>
         </div>
+            </div>
             </div>
         );
     }

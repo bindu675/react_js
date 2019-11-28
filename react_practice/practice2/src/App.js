@@ -9,31 +9,36 @@ import Index from './Components/Index/Index';
 import LifecycleA from './Components/LifecycleA/LifecycleA';
 import Person from './Container/Person/Person';
 // import State from './Components/State/State';
-import Users from './Components/Users/Users';
+// import Users from './Components/Users/Users';
 import Application from './Components/Application/Application';
 import { Binding } from '@babel/traverse';
+// import Splice from './Components/Delete/Splice';
+import Users from './Components/API/Users';
 
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Router> 
+      <Router> 
    <switch>
-   <Route exact path='/' component={LifecycleA}></Route>
+   {/* <Route exact path='/' component={LifecycleA}></Route>
    <Route exact path='/Signup' component={Signup}></Route>
-    
-     <Route exact path='/Signin' component={Signin}></Route>
+     */}
+     {/* <Route exact path='/Signin' component={Signin}></Route>
      <Route exact path='/Contactus' component={Contactus}></Route>
-     <Route exact path='/Index' component={Index}></Route>
+     <Route exact path='/Index' component={Index}></Route> */}
+     <Route exact path='/' component={Users}></Route>
    </switch>
- </Router> */}
+ </Router>
      {/* <LifecycleA/> */}
 
      {/* <State/> */}
      {/* <Users/> */}
      {/* <Application/> */}
-     <Binding/>
+     {/* <Binding/> */}
+     {/* <Splice/> */}
+    
     </div>
    
   );

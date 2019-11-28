@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../Navbar/Navbar';
 
 class changeColorButton extends React.Component {
   constructor(props) {
@@ -10,7 +11,9 @@ class changeColorButton extends React.Component {
   }
   render() {
     return (
+      <div>
       <button onClick={this.handleClick}>I dont like {this.props.currentColor}</button>
+      </div>
     );
   }
 } 

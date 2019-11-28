@@ -2,9 +2,14 @@ import React, { Component } from 'react';
 import './Signin.css';
 import images from "../img.jpeg";
 import { SocialIcon } from 'react-social-icons';
+import Navbar from '../Navbar/Navbar';
 class Signin extends Component {
   render() {
     return (
+      <div>
+      <div>
+        <Navbar/>
+      </div>
       <div class="container">
         <div class="sign1">
           Signin form</div><br></br>
@@ -33,6 +38,7 @@ class Signin extends Component {
             </div>
           </div>
         </div>
+      </div>
       </div>
     );
   }
